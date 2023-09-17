@@ -77,11 +77,6 @@ class Testimonials(models.Model):
 class Price(models.Model):
     title = models.CharField(max_length=100)
     price = models.IntegerField(default=0)
-    content1 = models.TextField()
-    content2 = models.TextField()
-    content3 = models.TextField()
-    content4 = models.TextField()
-    content5 = models.TextField()
 
     def __str__(self):
         return self.title
